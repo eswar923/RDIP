@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+<a href="https://www.iiit.ac.in/">
+<img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT-H" style="width:90px;height:70px;">
+</a>
+<div class="topright"><p><a href="https://serc.iiit.ac.in/rdip/">RDIP</a></p></div>
+<ul>
+  <li><a href="homepage.html">Home</a></li>
+  <li><a href="registration.html">Registration Form</a></li>
+</ul>
+<form action="/action_page.php" method="get" target="_blank">
+      	<table align="centre" cellpadding="10">
+      		<tr>
+      			<td><strong>First Name </strong></td>
+      			<td><input type="text" id="name" name="name"placeholder="enter name"></td>
+      		</tr>
+      		<tr>
+      			<td><strong>Email id</strong></td>
+      			<td><input type="text" id="email" name="email"placeholder="enter email"></td>
+      		</tr>
+      		<tr>
+      			<td><strong>Phone number</strong> </td>
+      			<td><input type="number" id="name" name="MNUM"placeholder="enter phone"></td>
+      		</tr>
+      		<tr>
+      		<td><strong>gender</strong></td>
+      		<td>Male <input type="radio" name="male">female<input type="radio" name="female">others<input type="radio" name="others"></td>
+      	    </tr>
+            <tr>
+      		<td><strong>Reason for RDIP</strong></td>
+      		<td><input type="checkbox" name="HTML">HTML<input type="checkbox" name="CSS">CSS<input type="checkbox" name="JavaScript">JavaScript</td>
+            </tr>
+            <tr>
+            <td><strong>college </strong></td>
+      			<td><input type="text" id="clge" name="clge"placeholder="enter college name"></td>
+      		</tr>
+            <tr>
+            <td><input type="checkbox" name="agree"</td>
+<td><strong>i declare above details given by me are true</strong></td>
+            </tr>
+            <tr>
+            <td><input type="submit" value="Submit"></td>
+            <td><input type="reset" value="Reset"></>
+            </tr>
+            </form>
+           
+      	 </table>
+
+</body>
+</html>
+
